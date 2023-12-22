@@ -1,0 +1,117 @@
+.section10_registration_content_container {
+    display: inline-flex;
+    width: 90%;
+    padding: 0px 0px 0px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.registration_details_container {
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.registration_section_title {
+    color: var(--GrayScale-Placehoder, #888);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Tenor Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.registration_detail_input_container {
+    display: inline-flex;
+    /* width: 164px;
+    height: 50px; */
+    padding: 5px 0px 5px 0px;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #979797;
+}
+
+.registration_detail_input_container input {
+    border: none;
+}
+
+.registration_detail_input_container input:focus {
+    border: none;
+    outline: none;
+}
+
+.registration_detail_select_input_container {
+    display: flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 93px;
+    background: var(--GrayScale-Input-BG, #979797);
+    border: none;
+}
+
+.registration_detail_select_input_container:focus {
+    outline: none;
+}
+
+.registration_detail_select_input_container option {
+    border-radius: 0%;
+}
+
+.registration_section_button {
+    display: inline-flex;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: black;
+
+    color: var(--GrayScale-Off-white, #FCFCFC);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+}
+
+.registration_pickupstation_details {
+    display: inline-flex;
+    padding: 5px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.pickup_station_title {
+    color: #1A1A1A;
+    font-family: Tenor Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 88.889% */
+}
+
+.pickup_station_description {
+    color: var(--GrayScale-Label, #555);
+    font-family: Tenor Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.registration_pickupstation_details{}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="section1_the_introtab">
+            <div class="column1_options">
+                <img src="./assets/Menu.svg" alt="">
+            </div>
+            <div class="column2_logo">
+                <img src="./assets/DALLY.svg" alt="">
+            </div>
+            <div class="column3_search_cart_container">
+                <img src="./assets/Search.svg" alt="">
+                <img src="./assets/shoppingbag.svg" alt="">
+            </div>
+        </div>
+
+        <div class="section2_filterstab">
+            <div class="color_filter_container">
+                <span>Color</span>
+                <img src="./assets/color.svg" alt="">
+            </div>
+
+            <img src="./assets/Tags.svg" alt="">
+
+            <img src="./assets/Filter.svg" alt="">
+        </div>
+
+
+        <div class="section3_searchbox">
+            <div class="search_content_container">
+                <div class="search_input_container">
+                    <input type="text" value="Dress">
+                </div>
+                <div class="search_controlls_container">
+                    <img src="./assets/Delete.svg" alt="">
+                    <img src="./assets/Search.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section4_shopitems">
+            <div class="items_container">
+
+                <div class="item_container">
+                    <div class="item_image_container">
+                        <img src="./assets/item_sample1.png" alt="">
+                    </div>
+                    <div class="item_short_description_container">
+                        <div class="description_content">
+                            <p class="item_name">lamerei</p>
+                            <p class="item_description">reversible angora cardigan</p>
+                        </div>
+                        <span class="item_price">Ksh 120</span>
+                    </div>
+                </div>
+
+
+                <div class="item_container">
+                    <div class="item_image_container">
+                        <img src="./assets/item_sample1.png" alt="">
+                    </div>
+                    <div class="item_short_description_container">
+                        <div class="description_content">
+                            <p class="item_name">lamerei</p>
+                            <p class="item_description">reversible angora cardigan</p>
+                        </div>
+                        <span class="item_price">Ksh 120</span>
+                    </div>
+                </div>
+
+                <div class="item_container">
+                    <div class="item_image_container">
+                        <img src="./assets/item_sample1.png" alt="">
+                    </div>
+                    <div class="item_short_description_container">
+                        <div class="description_content">
+                            <p class="item_name">lamerei</p>
+                            <p class="item_description">reversible angora cardigan</p>
+                        </div>
+                        <span class="item_price">Ksh 120</span>
+                    </div>
+                </div>
+
+                <div class="item_container">
+                    <div class="item_image_container">
+                        <img src="./assets/item_sample1.png" alt="">
+                    </div>
+                    <div class="item_short_description_container">
+                        <div class="description_content">
+                            <p class="item_name">lamerei</p>
+                            <p class="item_description">reversible angora cardigan</p>
+                        </div>
+                        <span class="item_price">Ksh 120</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content_pagination">
+            </div>
+        </div>
+
+        <div class="section5_footer">
+            <div class="social_media">
+                <img src="./assets/IG.svg" alt="">
+                <img src="./assets/x.svg" alt="">
+                <img src="./assets/youtube.svg" alt="">
+            </div>
+
+            <div class="contact_details">
+                <p>+91 12345 67890</p>
+                <p>Apple view,Limuru Road</p>
+                <p>support@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div id="overlay" ></div>
+    <div id="popup">
+        <div class="popup_content_container1">
+            <div class="menue_item_container">
+                <img src="./assets/u_user-circle.svg" alt="">
+                <span>Profile</span>
+            </div>
+
+            <div class="menue_item_container">
+                <img src="./assets/u_box.svg" alt="">
+                <span>Orders</span>
+            </div>
+
+            <div class="menue_item_container">
+                <img src="./assets/Voucher.svg" alt="">
+                <span>Coupons</span>
+            </div>
+
+
+            <div class="menue_item_container">
+                <img src="./assets/u_clipboard-notes.svg" alt="">
+                <span>Register</span>
+            </div>
+
+            <div class="menue_item_container">
+                <img src="./assets/u_sign-in-alt.svg" alt="">
+                <span>Sign In</span>
+            </div>
+
+            <div class="menue_item_container">
+                <img src="./assets/u_sign-out-alt.svg" alt="">
+                <span>Logout</span>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script type="text/javascript">
+	// Initialize Variables
+	//var closePopup = document.getElementById("popupclose");
+	var overlay = document.getElementById("overlay");
+	var popup = document.getElementById("popup");
+	// Close Popup Event
+	// closePopup.onclick = function() {
+	//   overlay.style.display = 'none';
+	//   popup.style.display = 'none';
+	// };
+
+	
+  overlay.onclick = function() {
+	  overlay.style.display = 'none';
+	  popup.style.display = 'none';
+	};
+
+
+	// Show Overlay and Popup
+	function showpopup() {
+	  overlay.style.display = 'block';
+	  popup.style.display = 'block';
+	}
+    showpopup()
+</script>
+</html>

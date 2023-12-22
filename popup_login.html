@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mimi</title>
+    <title>Popup - Login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="popup-login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
@@ -127,7 +129,77 @@
             </div>
         </div>
     </div>
+    <div id="overlay"></div>
+    <div id="popup">
+        <div class="popup_content_container2">
+            <div class="back_button_container">
+                <img src="./assets/Back_Arrow.svg" alt="">
+                <span>Back</span>
+            </div>
+
+            <div class="cart_label_container">
+                <span class="cart_label">LOGIN</span>
+            </div>
+
+            <span>Email or password missmatch</span>
+
+            <div class="login_input_container">
+                <div class="registration_detail_input_container">
+                    <input type="text" placeholder="Email">
+                </div>
+
+                <div class="registration_detail_input_container">
+                    <input type="password" placeholder="Password">
+                </div>
+
+                <div class="popup_login_button">
+                    <span>LOGIN</span>
+                </div>
+
+                <div>
+                    <span>Forgot Password?</span>
+                    <span>Register</span>
+                </div>
+            </div>
+
+            <hr/>
+
+            <div class="login_input_container">
+                <div class="popup_login_button_google">
+                    <img src="./assets/gooogle.svg" alt="">
+                    <span>Continue with Google</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
 
 </body>
+<script type="text/javascript">
+    // Initialize Variables
+    var overlay = document.getElementById("overlay");
+    var popup = document.getElementById("popup");
+    // Close Popup Event
+    // closePopup.onclick = function() {
+    //   overlay.style.display = 'none';
+    //   popup.style.display = 'none';
+    // };
+
+
+    overlay.onclick = function () {
+        overlay.style.display = 'none';
+        popup.style.display = 'none';
+    };
+
+
+    // Show Overlay and Popup
+    function showpopup() {
+        overlay.style.display = 'block';
+        popup.style.display = 'block';
+    }
+    showpopup()
+</script>
 
 </html>

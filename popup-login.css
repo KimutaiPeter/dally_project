@@ -1,0 +1,118 @@
+.popup_content_container2 {
+    width: 100%;
+    display: inline-flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--GrayScale-Title-Active, #000);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Tenor Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+
+
+.registration_detail_input_container {
+    display: inline-flex;
+    /* width: 164px;
+    height: 50px; */
+    padding: 5px 0px 5px 0px;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #979797;
+}
+
+.registration_detail_input_container input {
+    border: none;
+}
+
+.registration_detail_input_container input:focus {
+    border: none;
+    outline: none;
+}
+
+.registration_detail_select_input_container {
+    display: flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 93px;
+    background: var(--GrayScale-Input-BG, #979797);
+    border: none;
+}
+
+.registration_detail_select_input_container:focus {
+    outline: none;
+}
+
+.registration_detail_select_input_container option {
+    border-radius: 0%;
+}
+
+.back_button_container{
+    display: flex;
+width: 90%;
+padding: 3px;
+align-items: center;
+gap: 6px;
+}
+
+
+.login_input_container{
+    display: inline-flex;
+width: 100%;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+}
+
+.popup_login_button{
+    width: 50%;
+    display: inline-flex;
+padding: 5px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #000;
+cursor: pointer;
+
+
+color: var(--GrayScale-Off-white, #FCFCFC);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Tenor Sans;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.16px;
+text-transform: uppercase;
+
+}
+
+.popup_login_button_google{
+    display: inline-flex;
+padding: 5px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #000;
+cursor: pointer;
+
+
+color: var(--GrayScale-Off-white, #FCFCFC);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Tenor Sans;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.16px;
+text-transform: uppercase;
+font-size: 14px;
+
+}

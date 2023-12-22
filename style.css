@@ -62,7 +62,7 @@
 .section1_the_introtab {
     display: flex;
     width: 100%;
-    padding: 10px 5px;
+    padding: 10px 0px;
     justify-content: center;
     align-items: center;
 }
@@ -237,7 +237,7 @@
 .section5_footer {
     display: inline-flex;
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 0px;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -246,9 +246,9 @@
 
 .social_media {
     display: inline-flex;
-justify-content: center;
-align-items: center;
-gap: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 }
 
 .contact_details {
@@ -263,4 +263,120 @@ gap: 12px;
 
 .contact_details p {
     margin: 0%;
+}
+
+
+
+
+/* The Product details page */
+.section6_item_images {
+    width: 100%;
+}
+
+.images_content_container {
+    display: inline-flex;
+    padding: 10px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.images_content_container img {
+    width: 95%;
+}
+
+
+.section7_product_titlen_variants {
+    width: 100%;
+}
+
+.title_price_container {
+    display: flex;
+    width: 95%;
+    padding: 10px 0px 10px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.title_price_container .title {
+    color: #000;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Tenor Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.title_price_container .item_description {
+    color: var(--gray-scale-label, #555);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Tenor Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section7_product_titlen_variants .item_price {
+    color: var(--primary-default, #DD8560);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Tenor Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.section8_add_to_cart_button {
+    display: flex;
+    width: 100%;
+    height: 46px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #000;
+    cursor: pointer;
+}
+
+.add_to_cart_button {
+    display: inline-flex;
+    padding: 6px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-family: Tenor Sans;
+}
+
+
+
+.suggestion {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Title */
+    font-family: Tenor Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 222.222% */
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.section9_item_description{
+    padding: 10px 10px;
+    font-family: Tenor Sans;
 }
