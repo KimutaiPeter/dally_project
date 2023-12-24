@@ -1,0 +1,70 @@
+.section3_additional_charges {
+    width: 100%;
+}
+
+.charge_item_container {
+    display: flex;
+    width: 100%;
+    height: 83px;
+    padding: 10px 0px;
+    align-items: center;
+    gap: 10px;
+}
+
+.charge_item_label {
+    display: inline-flex;
+    padding: 9px 13px;
+    align-items: center;
+    gap: 21px;
+
+    color: var(--gray-scale-body, #333);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Tenor Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
+}
+
+.charge_amount {
+    display: flex;
+    width: 129px;
+    height: 50px;
+    padding: 15px 11px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+
+
+    color: var(--gray-scale-label, #555);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Tenor Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
+}
+
+
+
+.section3_pay_with_paybill{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.section3_pay_with_paybill li{
+    padding: 5px 0px 5px 0px;
+
+    color: var(--gray-scale-label, #555);
+    text-align: left;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Tenor Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+
+}
